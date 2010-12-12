@@ -1,0 +1,5 @@
+; $Id$
+name = "wmd"
+description = "wmd markdown"
+package = User interface
+core = 6.x
