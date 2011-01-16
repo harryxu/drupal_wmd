@@ -8,16 +8,16 @@ function wmd_form_alter(&$form, &$form_state, $form_id) {
     $basePath = drupal_get_path('module', 'wmd');
     drupal_add_css("$basePath/wmd/wmd.css");
 
-    drupal_add_js("$basePath/showdown.js", 'module', 'footer');
+    drupal_add_js("$basePath/showdown.js");
 
-    drupal_add_js("$basePath/wmd/wmd.js", 'module', 'footer');
-    drupal_add_js("$basePath/wmd/chunk.js", 'module', 'footer');
-    drupal_add_js("$basePath/wmd/inputstate.js", 'module', 'footer');
-    drupal_add_js("$basePath/wmd/command.js", 'module', 'footer');
-    drupal_add_js("$basePath/wmd/dialog.js", 'module', 'footer');
-    drupal_add_js("$basePath/wmd/form.js", 'module', 'footer');
-    drupal_add_js("$basePath/wmd/field.js", 'module', 'footer');
-    drupal_add_js("$basePath/wmd/linkhelper.js", 'module', 'footer');
+    drupal_add_js("$basePath/wmd/wmd.js");
+    drupal_add_js("$basePath/wmd/chunk.js");
+    drupal_add_js("$basePath/wmd/inputstate.js");
+    drupal_add_js("$basePath/wmd/command.js");
+    drupal_add_js("$basePath/wmd/dialog.js");
+    drupal_add_js("$basePath/wmd/form.js");
+    drupal_add_js("$basePath/wmd/field.js");
+    drupal_add_js("$basePath/wmd/linkhelper.js");
 
-    drupal_add_js("$basePath/wmd.js", 'module', 'footer');
+    drupal_add_js("$basePath/wmd.js");
 }

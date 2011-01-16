@@ -2,4 +2,4 @@
 name = "wmd"
 description = "wmd markdown"
 package = User interface
-core = 6.x
+core = 7.x
