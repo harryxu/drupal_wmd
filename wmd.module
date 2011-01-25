@@ -8,7 +8,7 @@ function wmd_form_alter(&$form, &$form_state, $form_id) {
     $basePath = drupal_get_path('module', 'wmd');
     drupal_add_css("$basePath/wmd/wmd.css");
 
-    drupal_add_js("$basePath/showdown.js");
+    //drupal_add_js("$basePath/showdown.js");
 
     drupal_add_js("$basePath/wmd/wmd.js");
     drupal_add_js("$basePath/wmd/chunk.js");
